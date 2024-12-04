@@ -269,3 +269,98 @@ footer .team-list {
 footer .team-list li {
   margin-bottom: 5px;
 }
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header-title {
+  font-family: "Fascinate Inline", cursive;
+  font-size: 36px;
+  color: #00bfa6;
+}
+
+.btn-access {
+  background-color: #00bfa6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-access:hover {
+  background-color: #008e80;
+}
+
+main {
+  margin-top: 80px;
+}
+
+.intro, .features, .cta, .testimonials, .team {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 20px;
+}
+
+.features h2 {
+  margin-bottom: 30px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.indicator.active {
+  background-color: #00bfa6;
+}
+
+.testimonials blockquote {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+footer {
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.newsletter input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #00bfa6;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+  background-color: #008e80;
+}
